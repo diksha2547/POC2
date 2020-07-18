@@ -1,0 +1,13 @@
+pipeline {
+
+  agent any
+  
+  stages {
+  
+    step {
+    
+      echo 'hey, there?'
+      
+   }
+}
+}
