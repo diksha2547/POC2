@@ -4,10 +4,12 @@ pipeline {
   
   stages {
   
-    step {
+  stage('xyz') {
+  
+    steps {
     
       echo 'hey, there?'
-      
+      }
    }
 }
 }
